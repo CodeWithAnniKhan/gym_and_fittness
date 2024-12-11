@@ -554,11 +554,12 @@ a:hover::after {
     .header__content {
         text-align: center;
         padding: 1rem;
+        margin-top: 10rem;
     }
 
     .header__content h1 {
         font-size: 4.5rem;
-
+       
         line-height: 4rem;
     }
 
@@ -596,22 +597,16 @@ a:hover::after {
 
     /* this is the media Q for the classessssssss section ++++++++++++++++++++++++++++++++++++++++ */
     #about p {
-        text-align: center;
+        text-align: justify;
         width: 100%;
-        padding: 2rem 6rem;
+        /* padding: 2rem 6rem; */
         font-size: 2rem;
         line-height: 3rem;
     }
-
-    #about .class__image{
-        /* display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        background-color: red; */
-    }
     .about__img {
-        padding: 3rem 0;
-        margin-right: 6rem;
+        /* padding: 3rem 0; */
+        /* margin-right: 6rem; */
+        margin-bottom: 3rem;
         margin-top: -3rem;
     }
 
